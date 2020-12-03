@@ -1,0 +1,100 @@
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: aqua;
+    margin: 8px auto;
+}
+    #welcome {
+        position: absolute;
+        overflow: hidden;
+
+        color: blanchedalmond;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px; opacity: 0.83;
+        background:linear-gradient(#ff00fb 0%,#009dff 100%);
+        display: table;
+        width: 100%;
+        z-index: 9;
+        text-shadow: 10;
+    }
+
+    body {
+        text-align: center;
+    }
+    
+    .profile{
+    width: 100px;
+    height: 100px;    
+    }
+     
+.menu{
+ position:fixed;
+  background-color: orange;
+  width: 100%;
+   margin-top: 0px;
+    top: 0px;
+    z-index:10;
+    
+    
+}
+ .link{
+
+  display: inline;
+   padding-right:9;
+   padding-left:9;
+  font-family:fantasy;
+  font-size:20px;
+}
+.link:hover{
+  color:indianred;
+}   
+    
+#MYFAVOURITEBOOK{
+margin-top:800px;     
+    
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+#MYWORK{
+ background-color: red;  
+}
+#MYFAVOURITEBOOK {
+background-color: lightgreen;
+}
+    
+#MYINSPIRATION {
+background:linear-gradient(#ff00fb 0%,#009dff 100%);    
+}
+ 
+#contact {
+    background-color:red;
+}
+
+
+
+.profile2 {
+    
+ transition: transform .2s;
+border: 10px soild #aaaaaa;    
+    
+}
+
+.profile2:hover{
+    transform: scale(0.9);
+}
+
+.scrren {
+    width: 600;
+    height: 700;
+}
+
+#head {
+font-size: 30px;
+line-height: 0.2;
+font-family: 'Castoro', serif;    
+}
